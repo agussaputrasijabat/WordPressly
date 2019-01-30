@@ -13,7 +13,7 @@ namespace WordPressly.Repository
 {
     public class Posts
     {
-        private const string _methodPath = "wp/v2/posts";
+        private const string _methodPath = "wp-json/wp/v2/posts";
         private readonly static string _cachedPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "_posts.json");
 
         internal static List<Post> LocalPosts = new List<Post>();

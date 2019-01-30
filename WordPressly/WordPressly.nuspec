@@ -5,7 +5,7 @@
     <version>0.1.0</version>
     <title>WordPress RESt API Plugin</title>
     <authors>Agus Saputra Sijabat</authors>
-    <owners>Genesis Digital</owners>
+    <owners>Agus Saputra Sijabat</owners>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/agussaputrasijabat/WordPressly</projectUrl>
     <iconUrl>https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/NuGet_project_logo.svg/1200px-NuGet_project_logo.svg.png</iconUrl>

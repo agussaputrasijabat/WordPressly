@@ -13,7 +13,7 @@ namespace WordPressly.Repository
 {
     public class Media
     {
-        private const string _methodPath = "wp/v2/media";
+        private const string _methodPath = "wp-json/wp/v2/media";
         private readonly static string _cachedPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "_mediaitem.json");
         internal static List<MediaItem> LocalMediaItems = new List<MediaItem>();
 

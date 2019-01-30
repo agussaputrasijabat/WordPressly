@@ -5,7 +5,7 @@ namespace WordPressly
 {
     public class Platform
     {
-        protected static string WordPressAPIUrl = "https://hub.backinmotion.com.au/wp-json/";
+        protected static string WordPressUrl = "https://wordpress.org/news/";
         protected static internal RestClient RestClient { get; set; }
         protected static internal PlatformInitialization Config;
 
@@ -14,13 +14,13 @@ namespace WordPressly
             Config = args;
 
             // RestClient init
-            RestClient = new RestClient(WordPressAPIUrl)
+            RestClient = new RestClient(WordPressUrl)
             {
                 CookieContainer = Utility.CookiesManager.ReadCookiesFromDisk()
             };
 
             // Wordpress init
-            WordPressAPIUrl = args.WordPressAPIUrl;
+            WordPressUrl = args.WordPressUrl;
             WordPress.Posts = new Repository.Posts();
             WordPress.Categories = new Repository.Categories();
             WordPress.Media = new Repository.Media();
@@ -37,6 +37,6 @@ namespace WordPressly
 
     public class PlatformInitialization
     {
-        public string WordPressAPIUrl { get; set; }
+        public string WordPressUrl { get; set; }
     }
 }

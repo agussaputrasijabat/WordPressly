@@ -13,7 +13,7 @@ namespace WordPressly.Repository
 {
     public class Categories
     {
-        private const string _methodPath = "wp/v2/categories";
+        private const string _methodPath = "wp-json/wp/v2/categories";
         private readonly static string _cachedPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "_categories.json");
 
         internal static List<Category> LocalCategories = new List<Category>();
