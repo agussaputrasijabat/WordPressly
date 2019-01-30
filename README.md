@@ -1,1 +1,1 @@
-# GenesisDigital.WordPress
+# WordPressly
