@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>WordPressly</id>
+    <version>0.1.0</version>
+    <title>WordPress RESt API Plugin</title>
+    <authors>Agus Saputra Sijabat</authors>
+    <owners>Genesis Digital</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/agussaputrasijabat/WordPressly</projectUrl>
+    <iconUrl>https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/NuGet_project_logo.svg/1200px-NuGet_project_logo.svg.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Library to access wordpress rest-api with C#.</description>
+    <releaseNotes>Create package.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Wordpress WordpressAPI</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="12.0.1" />
+      <dependency id="RestSharp" version="106.6.6" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="bin\Release\netstandard2.0\WordPressly.deps.json"
+          target="lib\WordPressly.deps.json" />
+    <file src="bin\Release\netstandard2.0\"
+          target="lib\WordPressly.dll" />
+    <file src="bin\Release\netstandard2.0\WordPressly.pdb"
+          target="lib\WordPressly.pdb" />
+  </files>
+</package>

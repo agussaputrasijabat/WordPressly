@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordPressly", "WordPressly\WordPressly.csproj", "{B1B6CF4D-DB62-4824-9EF4-86D75C7200BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1B6CF4D-DB62-4824-9EF4-86D75C7200BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B6CF4D-DB62-4824-9EF4-86D75C7200BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B6CF4D-DB62-4824-9EF4-86D75C7200BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B6CF4D-DB62-4824-9EF4-86D75C7200BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AFE1647-29B8-4482-9E91-19603989BEC9}
+	EndGlobalSection
+EndGlobal
